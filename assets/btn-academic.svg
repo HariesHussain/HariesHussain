@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 155 42" width="155" height="42">
+  <defs>
+    <linearGradient id="pill-glass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255, 255, 255, 0.08)" />
+      <stop offset="100%" stop-color="rgba(255, 255, 255, 0.02)" />
+    </linearGradient>
+    <style>
+      .btn-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+        fill: #E2E8F0;
+        letter-spacing: 0.2px;
+      }
+    </style>
+  </defs>
+  <rect width="155" height="42" rx="21" fill="url(#pill-glass)" stroke="rgba(255,255,255,0.12)" stroke-width="1.2" />
+  <path d="M 24 21 A 7 7 0 1 0 24 20.99 Z M 17 21 H 31 M 24 14 A 10 7 0 0 0 24 28 A 10 7 0 0 0 24 14" fill="none" stroke="#10B981" stroke-width="1.5" stroke-linecap="round" />
+  <text x="40" y="26" class="btn-text">Academic Site</text>
+</svg>

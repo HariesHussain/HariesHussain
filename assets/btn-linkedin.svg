@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 125 42" width="125" height="42">
+  <defs>
+    <linearGradient id="pill-glass-li" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255, 255, 255, 0.08)" />
+      <stop offset="100%" stop-color="rgba(255, 255, 255, 0.02)" />
+    </linearGradient>
+    <style>
+      .btn-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+        fill: #E2E8F0;
+        letter-spacing: 0.2px;
+      }
+    </style>
+  </defs>
+  <rect width="125" height="42" rx="21" fill="url(#pill-glass-li)" stroke="rgba(255,255,255,0.12)" stroke-width="1.2" />
+  <path d="M 23 16 A 1.5 1.5 0 1 0 23 15.99 Z M 21 20 V 27 M 27 20 V 27 M 27 23.5 C 27 21 31 21 31 23.5 V 27" fill="none" stroke="#10B981" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  <text x="44" y="26" class="btn-text">LinkedIn</text>
+</svg>

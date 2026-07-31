@@ -8,7 +8,7 @@
   <br />
 
   <!-- Studio Portrait Photo (Direct HTML IMG - 100% Native GitHub Rendering) -->
-  <a href="https://harieshussain.tech">
+  <a href="https://www.harieshussain.tech">
     <img src="assets/profile-photo.jpg" alt="S Haries Hussain - Studio Portrait" width="600" />
   </a>
 
@@ -22,11 +22,25 @@
   <!-- Hero Header Typography (Name, Subtitle, Philosophy) -->
   <img src="assets/hero-header.svg" alt="S Haries Hussain - Name & Philosophy" width="100%" />
 
-  <br />
+  <br /><br />
 
-  <!-- Glassmorphic Interactive Navigation Pills (Freelance & Academic Portfolios) -->
+  <!-- Glassmorphic Interactive Navigation Pills (Individually Clickable Buttons) -->
   <p align="center">
-    <a href="https://harieshussain.tech"><img src="assets/hero-nav.svg" alt="Navigation Links" width="100%" /></a>
+    <a href="https://www.harieshussain.tech" target="_blank">
+      <img src="assets/btn-freelance.svg" alt="Freelance Work" height="42" />
+    </a>
+    &nbsp;
+    <a href="https://harieshussain.me" target="_blank">
+      <img src="assets/btn-academic.svg" alt="Academic Site" height="42" />
+    </a>
+    &nbsp;
+    <a href="https://www.linkedin.com/in/harieshussain/" target="_blank">
+      <img src="assets/btn-linkedin.svg" alt="LinkedIn Profile" height="42" />
+    </a>
+    &nbsp;
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=shaikharieshussain09@gmail.com" target="_blank">
+      <img src="assets/btn-email.svg" alt="Direct Gmail Compose" height="42" />
+    </a>
   </p>
 
   <br /><br />
@@ -38,7 +52,9 @@
 
   <!-- ==================== ABOUT BENTO SECTION ==================== -->
   <!-- Bento Grid Cards: Who I Am, Freelance & Academic Portfolios, Services -->
-  <img src="assets/about-bento.svg" alt="About & Online Portfolios" width="100%" />
+  <a href="https://www.harieshussain.tech">
+    <img src="assets/about-bento.svg" alt="About & Online Portfolios" width="100%" />
+  </a>
 
   <br /><br />
 
@@ -105,9 +121,9 @@
   <br /><br />
 
   <!-- ==================== CONNECT & OUTREACH ==================== -->
-  <!-- Interactive Glass CTA Card -->
-  <a href="mailto:shaikharieshussain09@gmail.com">
-    <img src="assets/connect-bento.svg" alt="Connect & Collaborate" width="100%" />
+  <!-- Start A Project Button (Redirects to https://www.harieshussain.tech/contact) -->
+  <a href="https://www.harieshussain.tech/contact" target="_blank">
+    <img src="assets/connect-bento.svg" alt="Start a Project - harieshussain.tech/contact" width="100%" />
   </a>
 
   <br /><br />
