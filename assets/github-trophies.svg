@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 150" width="100%" height="100%">
+  <defs>
+    <linearGradient id="trophy-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(18, 22, 30, 0.85)" />
+      <stop offset="100%" stop-color="rgba(9, 11, 16, 0.95)" />
+    </linearGradient>
+
+    <style>
+      .trophy-title {
+        font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif;
+        font-size: 13px;
+        font-weight: 700;
+        fill: #F8FAFC;
+      }
+      .trophy-sub {
+        font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', sans-serif;
+        font-size: 11px;
+        font-weight: 600;
+        fill: #F59E0B;
+      }
+    </style>
+  </defs>
+
+  <g transform="translate(30, 10)">
+    <rect width="840" height="130" rx="16" fill="url(#trophy-bg)" stroke="rgba(255,255,255,0.08)" stroke-width="1.2" />
+
+    <!-- Trophy 1 -->
+    <g transform="translate(30, 25)">
+      <circle cx="28" cy="28" r="24" fill="rgba(245, 158, 11, 0.15)" stroke="#F59E0B" stroke-width="1" />
+      <path d="M 28 16 L 33 22 H 23 Z M 22 22 H 34 V 28 C 34 31 31 34 28 34 C 25 34 22 31 22 28 Z M 28 34 V 38 M 24 38 H 32" fill="none" stroke="#F59E0B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+      <text x="64" y="26" class="trophy-title">React Architect</text>
+      <text x="64" y="44" class="trophy-sub">Specialist</text>
+    </g>
+
+    <!-- Trophy 2 -->
+    <g transform="translate(240, 25)">
+      <circle cx="28" cy="28" r="24" fill="rgba(16, 185, 129, 0.15)" stroke="#10B981" stroke-width="1" />
+      <path d="M 24 20 L 32 20 M 20 28 L 36 28 M 28 16 L 28 40" fill="none" stroke="#10B981" stroke-width="1.8" stroke-linecap="round" />
+      <text x="64" y="26" class="trophy-title">Daily Committer</text>
+      <text x="64" y="44" class="trophy-sub" fill="#34D399">Consistent</text>
+    </g>
+
+    <!-- Trophy 3 -->
+    <g transform="translate(450, 25)">
+      <circle cx="28" cy="28" r="24" fill="rgba(245, 158, 11, 0.15)" stroke="#F59E0B" stroke-width="1" />
+      <path d="M 28 18 L 30 24 L 36 26 L 30 28 L 28 34 L 26 28 L 20 26 L 26 24 Z" fill="#F59E0B" />
+      <text x="64" y="26" class="trophy-title">AI Innovator</text>
+      <text x="64" y="44" class="trophy-sub">Integrations</text>
+    </g>
+
+    <!-- Trophy 4 -->
+    <g transform="translate(640, 25)">
+      <circle cx="28" cy="28" r="24" fill="rgba(16, 185, 129, 0.15)" stroke="#10B981" stroke-width="1" />
+      <path d="M 21 21 L 28 17 L 35 21 V 29 C 35 34 28 38 28 38 C 28 38 21 34 21 29 Z" fill="none" stroke="#10B981" stroke-width="1.6" stroke-linecap="round" />
+      <text x="64" y="26" class="trophy-title">Full-Stack Dev</text>
+      <text x="64" y="44" class="trophy-sub" fill="#34D399">Production</text>
+    </g>
+  </g>
+</svg>
