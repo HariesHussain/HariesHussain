@@ -2,12 +2,22 @@
 
   <!-- ==================== HERO SECTION ==================== -->
   
-  <!-- Centered Hero Portrait Artwork (Raw GitHub Photo Frame Embed) -->
+  <!-- Glowing Top Aura Bar -->
+  <img src="assets/hero-aura-top.svg" alt="Atmospheric Glow" width="100%" />
+
+  <br />
+
+  <!-- Studio Portrait Photo (Direct HTML IMG - 100% Native GitHub Rendering) -->
   <a href="https://harieshussain.tech">
-    <img src="assets/hero-portrait.svg" alt="S Haries Hussain - Hero Portrait" width="100%" />
+    <img src="assets/profile-photo.jpg" alt="S Haries Hussain - Studio Portrait" width="600" />
   </a>
 
   <br />
+
+  <!-- Glowing Bottom Bar & Status Pill Badge -->
+  <img src="assets/hero-status-pill.svg" alt="Status Pill Badge" width="100%" />
+
+  <br /><br />
 
   <!-- Hero Header Typography (Name, Subtitle, Philosophy) -->
   <img src="assets/hero-header.svg" alt="S Haries Hussain - Name & Philosophy" width="100%" />

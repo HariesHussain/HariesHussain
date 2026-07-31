@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 90" width="100%" height="100%">
+  <defs>
+    <!-- Dark Atmospheric Base Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07090C" />
+      <stop offset="50%" stop-color="#0E1219" />
+      <stop offset="100%" stop-color="#07090C" />
+    </linearGradient>
+
+    <!-- Moving Aurora Mesh Gradient -->
+    <linearGradient id="aurora-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.25">
+        <animate attributeName="stop-color" values="#10B981;#D97706;#059669;#10B981" dur="12s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#D97706" stop-opacity="0.2">
+        <animate attributeName="stop-color" values="#D97706;#059669;#10B981;#D97706" dur="12s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#059669" stop-opacity="0.25">
+        <animate attributeName="stop-color" values="#059669;#10B981;#D97706;#059669" dur="12s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Gold to Emerald Ring Gradient -->
+    <linearGradient id="ring-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="50%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+
+    <filter id="heavy-blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="35" />
+    </filter>
+
+    <style>
+      .floating-particle {
+        animation: floatParticle 8s ease-in-out infinite alternate;
+      }
+      @keyframes floatParticle {
+        0% { transform: translateY(0px); opacity: 0.3; }
+        100% { transform: translateY(-15px); opacity: 0.8; }
+      }
+    </style>
+  </defs>
+
+  <rect width="900" height="90" rx="20" fill="url(#bg-grad)" />
+  <ellipse cx="450" cy="50" rx="360" ry="80" fill="url(#aurora-grad)" filter="url(#heavy-blur)" />
+
+  <!-- Particles -->
+  <circle cx="120" cy="40" r="2.5" fill="#F59E0B" class="floating-particle" />
+  <circle cx="780" cy="50" r="2" fill="#10B981" class="floating-particle" />
+
+  <!-- Glowing Top Border Bar -->
+  <line x1="160" y1="88" x2="740" y2="88" stroke="url(#ring-grad)" stroke-width="3" stroke-linecap="round" />
+</svg>
