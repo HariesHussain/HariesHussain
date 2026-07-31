@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 270" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cert-card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(18, 22, 30, 0.85)" />
+      <stop offset="100%" stop-color="rgba(10, 13, 18, 0.95)" />
+    </linearGradient>
+
+    <style>
+      .cert-title {
+        font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        fill: #F8FAFC;
+      }
+      .cert-issuer {
+        font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', sans-serif;
+        font-size: 11px;
+        font-weight: 700;
+        fill: #F59E0B;
+        letter-spacing: 0.8px;
+      }
+      .cert-desc {
+        font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', sans-serif;
+        font-size: 12.5px;
+        font-weight: 400;
+        fill: #94A3B8;
+        line-height: 1.5;
+      }
+      .cert-card {
+        transition: all 0.3s ease;
+      }
+      .cert-card:hover rect {
+        stroke: rgba(245, 158, 11, 0.4);
+      }
+    </style>
+  </defs>
+
+  <g transform="translate(0, 0)">
+    <!-- SECTION HEADER -->
+    <g transform="translate(30, 25)">
+      <text font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif" font-size="12" font-weight="700" letter-spacing="2" fill="#F59E0B" text-transform="uppercase">CREDENTIALS &amp; PROFILE</text>
+      <text y="30" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif" font-size="26" font-weight="800" fill="#F8FAFC" letter-spacing="-0.5px">Education &amp; Experience</text>
+    </g>
+
+    <!-- CARD 1: COMPUTER SCIENCE DEGREE -->
+    <g class="cert-card" transform="translate(30, 80)">
+      <rect width="265" height="165" rx="14" fill="url(#cert-card-bg)" stroke="rgba(255,255,255,0.08)" stroke-width="1.2" />
+      <g transform="translate(20, 20)">
+        <circle cx="16" cy="16" r="16" fill="rgba(16, 185, 129, 0.15)" />
+        <!-- Graduation Cap Icon -->
+        <path d="M 16 9 L 26 14 L 16 19 L 6 14 Z M 10 16 V 21 C 10 21 13 23 16 23 C 19 23 22 21 22 21 V 16 M 26 14 V 20" fill="none" stroke="#10B981" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        <text x="42" y="14" class="cert-issuer">ACADEMICS</text>
+        <text x="42" y="32" class="cert-title">BTech CS (3rd Year)</text>
+        
+        <!-- MULTILINE DESC WITH EXACT TSPAN BOUNDARIES -->
+        <text x="0" y="72" class="cert-desc">
+          <tspan x="0" dy="0">Computer Science undergraduate</tspan>
+          <tspan x="0" dy="20">focusing on web systems,</tspan>
+          <tspan x="0" dy="20">frontend engineering &amp; APIs.</tspan>
+        </text>
+      </g>
+    </g>
+
+    <!-- CARD 2: FREELANCE WEB DEV -->
+    <g class="cert-card" transform="translate(318, 80)">
+      <rect width="265" height="165" rx="14" fill="url(#cert-card-bg)" stroke="rgba(255,255,255,0.08)" stroke-width="1.2" />
+      <g transform="translate(20, 20)">
+        <circle cx="16" cy="16" r="16" fill="rgba(245, 158, 11, 0.15)" />
+        <!-- Briefcase Icon -->
+        <rect x="8" y="12" width="16" height="12" rx="2" fill="none" stroke="#F59E0B" stroke-width="1.5" />
+        <path d="M 12 12 V 9 C 12 8 13 7 14 7 H 18 C 19 7 20 8 20 9 V 12" fill="none" stroke="#F59E0B" stroke-width="1.5" />
+        <text x="42" y="14" class="cert-issuer">SERVICES</text>
+        <text x="42" y="32" class="cert-title">Freelance Web Dev</text>
+        
+        <text x="0" y="72" class="cert-desc">
+          <tspan x="0" dy="0">Building responsive, high-</tspan>
+          <tspan x="0" dy="20">converting websites for clients.</tspan>
+          <tspan x="0" dy="20">Visit: harieshussain.tech</tspan>
+        </text>
+      </g>
+    </g>
+
+    <!-- CARD 3: AI & WEB STACK -->
+    <g class="cert-card" transform="translate(605, 80)">
+      <rect width="265" height="165" rx="14" fill="url(#cert-card-bg)" stroke="rgba(255,255,255,0.08)" stroke-width="1.2" />
+      <g transform="translate(20, 20)">
+        <circle cx="16" cy="16" r="16" fill="rgba(16, 185, 129, 0.15)" />
+        <!-- Code / Sparkle Icon -->
+        <path d="M 11 12 L 8 16 L 11 20 M 21 12 L 24 16 L 21 20 M 17 10 L 15 22" stroke="#10B981" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+        <text x="42" y="14" class="cert-issuer">TECH STACK</text>
+        <text x="42" y="32" class="cert-title">React &amp; AI Integration</text>
+        
+        <text x="0" y="72" class="cert-desc">
+          <tspan x="0" dy="0">Leveraging AI APIs &amp; modern</tspan>
+          <tspan x="0" dy="20">frameworks to build rapid</tspan>
+          <tspan x="0" dy="20">web applications.</tspan>
+        </text>
+      </g>
+    </g>
+
+  </g>
+</svg>

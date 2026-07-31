@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 270" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cta-card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(18, 22, 30, 0.9)" />
+      <stop offset="100%" stop-color="rgba(9, 11, 16, 0.95)" />
+    </linearGradient>
+
+    <linearGradient id="btn-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+
+    <style>
+      .cta-heading {
+        font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif;
+        font-size: 22px;
+        font-weight: 800;
+        fill: #F8FAFC;
+        letter-spacing: -0.4px;
+      }
+      .cta-body {
+        font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        fill: #94A3B8;
+      }
+      .btn-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif;
+        font-size: 13px;
+        font-weight: 700;
+        fill: #07090C;
+        letter-spacing: 0.5px;
+      }
+      .email-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+        fill: #E2E8F0;
+      }
+    </style>
+  </defs>
+
+  <g transform="translate(0, 0)">
+    <!-- SECTION HEADER -->
+    <g transform="translate(30, 25)">
+      <text font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif" font-size="12" font-weight="700" letter-spacing="2" fill="#10B981" text-transform="uppercase">CONNECT &amp; FREELANCE</text>
+      <text y="30" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif" font-size="26" font-weight="800" fill="#F8FAFC" letter-spacing="-0.5px">Let's Build Something Exceptional</text>
+    </g>
+
+    <!-- CONNECT CARD CONTAINER -->
+    <g transform="translate(30, 80)">
+      <rect width="840" height="165" rx="16" fill="url(#cta-card-bg)" stroke="rgba(255,255,255,0.08)" stroke-width="1.2" />
+
+      <g transform="translate(35, 35)">
+        <text class="cta-heading">Have a project in mind or need a web developer?</text>
+        <text y="28" class="cta-body">I'm available for freelance web development, custom UI/UX implementations, and client web apps.</text>
+      </g>
+
+      <!-- BUTTON 1: FREELANCE CTA -->
+      <g transform="translate(35, 95)">
+        <rect width="210" height="42" rx="21" fill="url(#btn-glow)" />
+        <!-- Mail Icon -->
+        <path d="M 24 17 L 32 23 L 40 17 M 22 15 H 42 V 27 H 22 Z" fill="none" stroke="#07090C" stroke-width="1.8" stroke-linejoin="round" />
+        <text x="50" y="26" class="btn-text">START A PROJECT</text>
+      </g>
+
+      <!-- BUTTON 2: WIDE EMAIL BADGE FOR FULL ADDRESS (No clipping) -->
+      <g transform="translate(260, 95)">
+        <rect width="340" height="42" rx="21" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.12)" stroke-width="1" />
+        <circle cx="22" cy="21" r="4" fill="#10B981" />
+        <text x="36" y="26" class="email-text">shaikharieshussain09@gmail.com</text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 160" width="100%" height="100%">
+  <defs>
+    <linearGradient id="footer-line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0)" />
+      <stop offset="25%" stop-color="#10B981" />
+      <stop offset="50%" stop-color="#F59E0B" />
+      <stop offset="75%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="rgba(255,255,255,0)" />
+    </linearGradient>
+
+    <style>
+      .quote-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif;
+        font-size: 15px;
+        font-style: italic;
+        font-weight: 400;
+        fill: #94A3B8;
+        letter-spacing: 0.2px;
+      }
+      .sig-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        fill: #F59E0B;
+        text-transform: uppercase;
+      }
+    </style>
+  </defs>
+
+  <g transform="translate(0, 0)">
+    <!-- Animated Line -->
+    <line x1="80" y1="20" x2="820" y2="20" stroke="url(#footer-line)" stroke-width="1.5" opacity="0.8" />
+
+    <!-- Center Quote -->
+    <g transform="translate(450, 65)" text-anchor="middle">
+      <text class="quote-text">"Simplicity is the ultimate sophistication."</text>
+      <text y="32" class="sig-text">— S HARIES HUSSAIN —</text>
+    </g>
+
+    <!-- Subdued Copy Mark -->
+    <text x="450" y="140" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="11" fill="#475569">Designed with precision &amp; crafted for impact • 2026</text>
+  </g>
+</svg>

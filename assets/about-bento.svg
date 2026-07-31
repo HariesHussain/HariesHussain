@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" width="100%" height="100%">
+  <defs>
+    <!-- Glass Background Gradient -->
+    <linearGradient id="card-glass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(18, 22, 30, 0.85)" />
+      <stop offset="100%" stop-color="rgba(10, 13, 18, 0.95)" />
+    </linearGradient>
+
+    <style>
+      .bento-title {
+        font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+        fill: #F59E0B;
+      }
+      .bento-heading {
+        font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        fill: #F8FAFC;
+        letter-spacing: -0.4px;
+      }
+      .bento-body {
+        font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', sans-serif;
+        font-size: 13.5px;
+        font-weight: 400;
+        line-height: 1.6;
+        fill: #94A3B8;
+      }
+      .bento-highlight {
+        fill: #34D399;
+        font-weight: 600;
+      }
+      .bento-highlight-gold {
+        fill: #FBBF24;
+        font-weight: 600;
+      }
+      .bento-card {
+        transition: all 0.4s ease;
+      }
+      .bento-card:hover rect {
+        stroke: rgba(245, 158, 11, 0.4);
+      }
+    </style>
+  </defs>
+
+  <g transform="translate(0, 0)">
+
+    <!-- SECTION TITLE HEADER -->
+    <g transform="translate(30, 25)">
+      <text font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif" font-size="12" font-weight="700" letter-spacing="2" fill="#10B981" text-transform="uppercase">PERSPECTIVE &amp; PROFILE</text>
+      <text y="30" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif" font-size="26" font-weight="800" fill="#F8FAFC" letter-spacing="-0.5px">Crafting Web Solutions</text>
+    </g>
+
+    <!-- CARD 1: WHO I AM (Top Left) -->
+    <g class="bento-card" transform="translate(30, 80)">
+      <rect width="530" height="210" rx="16" fill="url(#card-glass)" stroke="rgba(255,255,255,0.08)" stroke-width="1.2" />
+      
+      <g transform="translate(30, 30)">
+        <circle cx="18" cy="18" r="18" fill="rgba(16, 185, 129, 0.12)" />
+        <path d="M 18 10 A 5 5 0 1 0 18 20 A 5 5 0 1 0 18 10 Z M 10 26 C 10 23 14 21 18 21 C 22 21 26 23 26 26" fill="none" stroke="#10B981" stroke-width="1.8" stroke-linecap="round" />
+      </g>
+
+      <g transform="translate(80, 32)">
+        <text class="bento-title">WHO I AM</text>
+        <text y="24" class="bento-heading">CS Student &amp; Freelance Developer</text>
+      </g>
+
+      <g transform="translate(30, 95)">
+        <text class="bento-body">
+          <tspan x="0" dy="0">I'm a 3rd-year Computer Science student based in Andhra Pradesh, India.</tspan>
+          <tspan x="0" dy="22">I specialize in building <tspan class="bento-highlight">modern React/Next.js web applications</tspan> for clients</tspan>
+          <tspan x="0" dy="22">and leveraging modern AI tools to accelerate development.</tspan>
+        </text>
+      </g>
+    </g>
+
+    <!-- CARD 2: PORTFOLIOS & SERVICES (Top Right) -->
+    <g class="bento-card" transform="translate(580, 80)">
+      <rect width="290" height="210" rx="16" fill="url(#card-glass)" stroke="rgba(255,255,255,0.08)" stroke-width="1.2" />
+      
+      <g transform="translate(25, 30)">
+        <circle cx="18" cy="18" r="18" fill="rgba(245, 158, 11, 0.12)" />
+        <path d="M 18 10 L 26 14 V 22 L 18 26 L 10 22 V 14 Z M 10 14 L 18 18 L 26 14 M 18 18 V 26" fill="none" stroke="#F59E0B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+
+      <g transform="translate(75, 32)">
+        <text class="bento-title">ONLINE PRESENCE</text>
+        <text y="24" class="bento-heading" font-size="18">My Websites</text>
+      </g>
+
+      <g transform="translate(25, 95)">
+        <text class="bento-body">
+          <tspan x="0" dy="0">• <tspan class="bento-highlight-gold">harieshussain.tech</tspan> (Freelance)</tspan>
+          <tspan x="0" dy="24">• <tspan class="bento-highlight">harieshussain.me</tspan> (Academic)</tspan>
+          <tspan x="0" dy="24">• Client project delivery</tspan>
+          <tspan x="0" dy="24">• Custom Web Engineering</tspan>
+        </text>
+      </g>
+    </g>
+
+    <!-- CARD 3: FOCUS & APPROACH (Bottom Left) -->
+    <g class="bento-card" transform="translate(30, 310)">
+      <rect width="410" height="200" rx="16" fill="url(#card-glass)" stroke="rgba(255,255,255,0.08)" stroke-width="1.2" />
+      
+      <g transform="translate(25, 25)">
+        <circle cx="18" cy="18" r="18" fill="rgba(16, 185, 129, 0.12)" />
+        <circle cx="18" cy="18" r="8" fill="none" stroke="#10B981" stroke-width="1.6" />
+        <polygon points="18,12 21,18 18,24 15,18" fill="#34D399" />
+      </g>
+
+      <g transform="translate(75, 27)">
+        <text class="bento-title">DEVELOPMENT APPROACH</text>
+        <text y="24" class="bento-heading" font-size="18">Focus &amp; Execution</text>
+      </g>
+
+      <g transform="translate(25, 90)">
+        <text class="bento-body">
+          <tspan x="0" dy="0">Building clean, high-performance user interfaces,</tspan>
+          <tspan x="0" dy="22">utilizing modern BaaS like Firebase &amp; Supabase,</tspan>
+          <tspan x="0" dy="22">and shipping fast for clients.</tspan>
+        </text>
+      </g>
+    </g>
+
+    <!-- CARD 4: FREELANCE SERVICES (Bottom Right) -->
+    <g class="bento-card" transform="translate(460, 310)">
+      <rect width="410" height="200" rx="16" fill="url(#card-glass)" stroke="rgba(255,255,255,0.08)" stroke-width="1.2" />
+      
+      <g transform="translate(25, 25)">
+        <circle cx="18" cy="18" r="18" fill="rgba(245, 158, 11, 0.12)" />
+        <path d="M 18 10 L 20 16 L 26 18 L 20 20 L 18 26 L 16 20 L 10 18 L 16 16 Z" fill="#F59E0B" />
+      </g>
+
+      <g transform="translate(75, 27)">
+        <text class="bento-title">FREELANCE SERVICES</text>
+        <text y="24" class="bento-heading" font-size="18">What I Offer Clients</text>
+      </g>
+
+      <g transform="translate(25, 90)">
+        <text class="bento-body">
+          <tspan x="0" dy="0">Custom Web Development, AI API Integration,</tspan>
+          <tspan x="0" dy="22">Landing Page Engineering, and End-to-End</tspan>
+          <tspan x="0" dy="22">React / Next.js implementation.</tspan>
+        </text>
+      </g>
+    </g>
+
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 60" width="100%" height="100%">
+  <defs>
+    <linearGradient id="div-line-2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0)" />
+      <stop offset="30%" stop-color="rgba(245, 158, 11, 0.25)" />
+      <stop offset="50%" stop-color="#10B981" />
+      <stop offset="70%" stop-color="rgba(245, 158, 11, 0.25)" />
+      <stop offset="100%" stop-color="rgba(255,255,255,0)" />
+    </linearGradient>
+
+    <filter id="div-glow-2" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <g transform="translate(0, 30)">
+    <line x1="50" y1="0" x2="850" y2="0" stroke="rgba(255,255,255,0.06)" stroke-width="1" />
+    <line x1="200" y1="0" x2="700" y2="0" stroke="url(#div-line-2)" stroke-width="1.5" filter="url(#div-glow-2)" />
+    <circle cx="450" cy="0" r="4" fill="#10B981" stroke="#07090C" stroke-width="1.5" />
+    <circle cx="450" cy="0" r="1.5" fill="#F8FAFC" />
+  </g>
+</svg>

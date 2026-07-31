@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="100%" height="100%">
+  <defs>
+    <linearGradient id="timeline-card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(18, 22, 30, 0.9)" />
+      <stop offset="100%" stop-color="rgba(9, 11, 16, 0.95)" />
+    </linearGradient>
+
+    <linearGradient id="line-glow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="50%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#34D399" />
+    </linearGradient>
+
+    <style>
+      .timeline-step-title {
+        font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif;
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+      }
+      .timeline-heading {
+        font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif;
+        font-size: 17px;
+        font-weight: 700;
+        fill: #F8FAFC;
+      }
+      .timeline-desc {
+        font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        fill: #94A3B8;
+        line-height: 1.5;
+      }
+      .timeline-tag {
+        font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', sans-serif;
+        font-size: 11px;
+        font-weight: 600;
+        fill: #34D399;
+      }
+      .pulse-node {
+        animation: nodeGlow 2.5s ease-in-out infinite alternate;
+      }
+      @keyframes nodeGlow {
+        0% { transform: scale(1); opacity: 0.7; }
+        100% { transform: scale(1.3); opacity: 1; }
+      }
+    </style>
+  </defs>
+
+  <g transform="translate(0, 0)">
+    <!-- SECTION HEADER -->
+    <g transform="translate(30, 25)">
+      <text font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif" font-size="12" font-weight="700" letter-spacing="2" fill="#10B981" text-transform="uppercase">ROADMAP &amp; HORIZONS</text>
+      <text y="30" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif" font-size="26" font-weight="800" fill="#F8FAFC" letter-spacing="-0.5px">Current Focus &amp; Milestones</text>
+    </g>
+
+    <!-- TIMELINE CARD CONTAINER -->
+    <g transform="translate(30, 80)">
+      <rect width="840" height="370" rx="16" fill="url(#timeline-card-bg)" stroke="rgba(255,255,255,0.08)" stroke-width="1.2" />
+
+      <!-- Vertical Connecting Line -->
+      <line x1="60" y1="45" x2="60" y2="315" stroke="url(#line-glow)" stroke-width="2" stroke-dasharray="4 4" />
+
+      <!-- STEP 1: CURRENTLY BUILDING -->
+      <g transform="translate(60, 45)">
+        <circle cx="0" cy="0" r="10" fill="#0A0D12" stroke="#F59E0B" stroke-width="2" />
+        <circle cx="0" cy="0" r="4" fill="#F59E0B" class="pulse-node" />
+        <g transform="translate(30, -5)">
+          <text class="timeline-step-title" fill="#F59E0B">CURRENTLY BUILDING</text>
+          <text y="22" class="timeline-heading">SiteBox &amp; OmniShop</text>
+          <text y="42" class="timeline-desc">Architecting SiteBox — website builder &amp; client delivery platform for freelancers with live preview links.</text>
+        </g>
+      </g>
+
+      <!-- STEP 2: CURRENTLY LEARNING -->
+      <g transform="translate(60, 130)">
+        <circle cx="0" cy="0" r="10" fill="#0A0D12" stroke="#10B981" stroke-width="2" />
+        <circle cx="0" cy="0" r="4" fill="#10B981" />
+        <g transform="translate(30, -5)">
+          <text class="timeline-step-title" fill="#10B981">CURRENTLY LEARNING</text>
+          <text y="22" class="timeline-heading">Distributed Systems &amp; Performance Optimization</text>
+          <text y="42" class="timeline-desc">Mastering advanced Next.js App Router patterns, edge computing, and zero-latency state synchronization.</text>
+        </g>
+      </g>
+
+      <!-- STEP 3: CURRENTLY EXPLORING -->
+      <g transform="translate(60, 215)">
+        <circle cx="0" cy="0" r="10" fill="#0A0D12" stroke="#34D399" stroke-width="2" />
+        <circle cx="0" cy="0" r="4" fill="#34D399" />
+        <g transform="translate(30, -5)">
+          <text class="timeline-step-title" fill="#34D399">CURRENTLY EXPLORING</text>
+          <text y="22" class="timeline-heading">AI Agents &amp; Vector Workflows</text>
+          <text y="42" class="timeline-desc">Integrating Gemini &amp; OpenAI API workflows into developer productivity tools and smart automated helpers.</text>
+        </g>
+      </g>
+
+      <!-- STEP 4: FUTURE GOALS -->
+      <g transform="translate(60, 300)">
+        <circle cx="0" cy="0" r="10" fill="#0A0D12" stroke="#FBBF24" stroke-width="2" />
+        <circle cx="0" cy="0" r="4" fill="#FBBF24" />
+        <g transform="translate(30, -5)">
+          <text class="timeline-step-title" fill="#FBBF24">FUTURE GOALS</text>
+          <text y="22" class="timeline-heading">Scale Indie Products &amp; Impact Developers</text>
+          <text y="42" class="timeline-desc">Launch profitable SaaS applications, empower 10,000+ indie builders, and drive technical excellence.</text>
+        </g>
+      </g>
+
+    </g>
+  </g>
+</svg>
