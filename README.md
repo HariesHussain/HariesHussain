@@ -1,141 +1,63 @@
 <div align="center">
 
-  <!-- ==================== HERO SECTION ==================== -->
-  
-  <!-- Glowing Top Aura Bar -->
-  <img src="assets/hero-aura-top.svg" alt="Atmospheric Glow" width="100%" />
+<img src="assets/profile-photo.jpg" alt="S Haries Hussain" width="170">
 
-  <br />
+<img src="assets/hero.svg" alt="S Haries Hussain. Computer Science Student. Web developer, learning and building." width="800">
 
-  <!-- Studio Portrait Photo (Direct HTML IMG - 100% Native GitHub Rendering) -->
-  <a href="https://www.harieshussain.tech">
-    <img src="assets/profile-photo.jpg" alt="S Haries Hussain - Studio Portrait" width="600" />
-  </a>
+<a href="https://harieshussain.me">Portfolio</a> &nbsp;|&nbsp; <a href="https://www.linkedin.com/in/harieshussain/">LinkedIn</a> &nbsp;|&nbsp; <a href="mailto:shaikharieshussain09@gmail.com">Email</a>
 
-  <br />
-
-  <!-- Glowing Bottom Bar & Status Pill Badge -->
-  <img src="assets/hero-status-pill.svg" alt="Status Pill Badge" width="100%" />
-
-  <br /><br />
-
-  <!-- Hero Header Typography (Name, Subtitle, Philosophy) -->
-  <img src="assets/hero-header.svg" alt="S Haries Hussain - Name & Philosophy" width="100%" />
-
-  <br /><br />
-
-  <!-- Glassmorphic Interactive Navigation Pills (Individually Clickable Buttons) -->
-  <p align="center">
-    <a href="https://www.harieshussain.tech" target="_blank">
-      <img src="assets/btn-freelance.svg" alt="Freelance Work" height="42" />
-    </a>
-    &nbsp;
-    <a href="https://harieshussain.me" target="_blank">
-      <img src="assets/btn-academic.svg" alt="Academic Site" height="42" />
-    </a>
-    &nbsp;
-    <a href="https://www.linkedin.com/in/harieshussain/" target="_blank">
-      <img src="assets/btn-linkedin.svg" alt="LinkedIn Profile" height="42" />
-    </a>
-    &nbsp;
-    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=shaikharieshussain09@gmail.com" target="_blank">
-      <img src="assets/btn-email.svg" alt="Direct Gmail Compose" height="42" />
-    </a>
-  </p>
-
-  <br /><br />
-
-  <!-- ==================== DIVIDER I ==================== -->
-  <img src="assets/divider-aurora-1.svg" alt="Divider" width="100%" />
-
-  <br /><br />
-
-  <!-- ==================== ABOUT BENTO SECTION ==================== -->
-  <!-- Bento Grid Cards: Who I Am, Freelance & Academic Portfolios, Services -->
-  <a href="https://www.harieshussain.tech">
-    <img src="assets/about-bento.svg" alt="About & Online Portfolios" width="100%" />
-  </a>
-
-  <br /><br />
-
-  <!-- ==================== DIVIDER II ==================== -->
-  <img src="assets/divider-aurora-2.svg" alt="Divider" width="100%" />
-
-  <br /><br />
-
-  <!-- ==================== SKILLS SHOWCASE ==================== -->
-  <!-- Glass Tech Matrix (Languages, Frontend, Backend, Cloud, Tools, AI) -->
-  <img src="assets/skills-showcase.svg" alt="Technical Skills Showcase" width="100%" />
-
-  <br /><br />
-
-  <!-- ==================== DIVIDER III ==================== -->
-  <img src="assets/divider-aurora-1.svg" alt="Divider" width="100%" />
-
-  <br /><br />
-
-  <!-- ==================== CERTIFICATIONS & EXPERIENCE ==================== -->
-  <!-- Glassmorphic Certifications & Education Grid -->
-  <img src="assets/certifications-grid.svg" alt="Certifications & Education" width="100%" />
-
-  <br /><br />
-
-  <!-- ==================== DIVIDER ==================== -->
-  <img src="assets/divider-aurora-2.svg" alt="Divider" width="100%" />
-
-  <br /><br />
-
-  <!-- ==================== INTEGRATED GITHUB METRICS ==================== -->
-  <!-- Custom Section Header for Metrics -->
-  <img src="assets/metrics-header.svg" alt="Engineering Velocity & Metrics" width="100%" />
-
-  <br />
-
-  <!-- Native Reliable GitHub Statistics & Tech Stack Card -->
-  <img src="assets/github-stats.svg" alt="GitHub Statistics & Tech Distribution" width="100%" />
-
-  <br /><br />
-
-  <!-- Live Streak Statistics -->
-  <p align="center">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=HariesHussain&theme=dark&background=090b0e&ring=F59E0B&fire=F59E0B&currStreakLabel=F59E0B&sideLabels=F8FAFC&border=1E2330" width="88%" alt="GitHub Streak Stats" />
-  </p>
-
-  <br /><br />
-
-  <!-- Native Reliable Glassmorphic GitHub Trophies -->
-  <img src="assets/github-trophies.svg" alt="GitHub Achievement Trophies" width="100%" />
-
-  <br /><br />
-
-  <!-- Live Activity & Contribution Graph -->
-  <p align="center">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=HariesHussain&bg_color=090b0e&color=F59E0B&line=10B981&point=F59E0B&area=true&hide_border=false&border_color=1E2330" width="100%" alt="Contribution Graph" />
-  </p>
-
-  <br /><br />
-
-  <!-- ==================== DIVIDER ==================== -->
-  <img src="assets/divider-aurora-1.svg" alt="Divider" width="100%" />
-
-  <br /><br />
-
-  <!-- ==================== CONNECT & OUTREACH ==================== -->
-  <!-- Start A Project Button (Redirects to https://www.harieshussain.tech/contact) -->
-  <a href="https://www.harieshussain.tech/contact" target="_blank">
-    <img src="assets/connect-bento.svg" alt="Start a Project - harieshussain.tech/contact" width="100%" />
-  </a>
-
-  <br /><br />
-
-  <!-- ==================== PROFILE VISITS COUNTER ==================== -->
-  <p align="center">
-    <img src="https://komarev.com/ghpvc/?username=HariesHussain&color=10B981&style=for-the-badge&label=TOTAL+PROFILE+VISITS" alt="Profile Visits Counter" />
-  </p>
-
-  <br /><br />
-
-  <!-- ==================== FOOTER & BRAND SIGNATURE ==================== -->
-  <img src="assets/footer-brand.svg" alt="Footer & Signature" width="100%" />
+Nandyal, Andhra Pradesh, India
 
 </div>
+
+<br>
+
+## About
+
+I am a third-year BTech student in Computer Science (AI & ML) at Santhiram Engineering College, Nandyal.
+
+I build full-stack web applications. My work so far covers React front ends with Firebase back ends, and a Python and Flask service on Supabase. The projects below are the ones I have built end to end, from authentication and database rules to payments and deployment.
+
+## Currently
+
+- Studying Computer Science with a specialisation in AI & ML
+- Building [OmniShop](https://github.com/HariesHussain/OmniShop), a multi-vendor e-commerce platform with role-based workflows for buyers, sellers, delivery partners, and admins
+
+## Education
+
+| Programme | Institution | Location |
+| :-- | :-- | :-- |
+| BTech, Computer Science (AI & ML), third year | Santhiram Engineering College | Nandyal, Andhra Pradesh |
+
+## Tech stack
+
+Taken from the repositories listed below.
+
+| Area | Tools | Used in |
+| :-- | :-- | :-- |
+| Languages | JavaScript, TypeScript, Python, SQL | OmniShop, CareerDesk, FitGenie, HabitFlowX |
+| Front end | React, Vite, Tailwind CSS, shadcn/ui, Radix UI, vanilla CSS | OmniShop, cafe-website, sttudent-portfolio, CareerDesk |
+| Back end | Node.js, Express, Flask | OmniShop, CareerDesk |
+| Data and auth | Firebase (Firestore, Authentication), Supabase (PostgreSQL, Row Level Security, Google OAuth) | OmniShop, HabitFlowX, FitGenie, CareerDesk |
+| Integrations | Stripe, Resend, Google Gemini API | OmniShop, FitGenie |
+| Deployment | Vercel, Render | OmniShop, CareerDesk, FitGenie, HabitFlowX |
+| Tooling | Git, GitHub, ESLint | OmniShop |
+
+## Projects
+
+| Project | Description | Stack |
+| :-- | :-- | :-- |
+| [OmniShop](https://github.com/HariesHussain/OmniShop) ([live](https://omni--shop.vercel.app/)) | Multi-vendor e-commerce platform with product catalogue, cart, checkout, order tracking, seller and delivery-partner applications, an admin panel, and automatic delivery assignment. In progress. | React, Vite, Tailwind CSS, Node.js, Express, Firebase, Stripe, Resend |
+| [CareerDesk](https://github.com/HariesHussain/CareerDesk) | Opportunity aggregator for Indian students and developers: hackathons, coding contests, hiring challenges, and fellowships. Includes a Kanban application tracker, Google sign-in, and an admin console with an audit trail. | Vanilla JavaScript, Python, Flask, Supabase, Vercel |
+| [FitGenie](https://github.com/HariesHussain/FitGenie) | AI fitness coach with workout and nutrition tracking, Firebase authentication, and a server-side Gemini proxy with rate limits and quota controls. | React, Vite, TypeScript, Firebase, Gemini API, Vercel |
+| [HabitFlowX](https://github.com/HariesHussain/Habit-tracker) | Habit and sleep tracking app with real-time progress insights and personalised coaching. | React, TypeScript, Firebase, Vercel |
+| [cafe-website](https://github.com/HariesHussain/cafe-website) | Responsive website with a component library and multiple page sections. | React 19, TypeScript, Vite, shadcn/ui, Radix UI, Tailwind CSS |
+| [sttudent-portfolio](https://github.com/HariesHussain/sttudent-portfolio) | Personal portfolio site with SEO optimisation and a mobile-first layout. | React 19, Vite, Tailwind CSS |
+
+## Contact
+
+For internships, collaboration, or questions about any of the projects above:
+
+- Email: [shaikharieshussain09@gmail.com](mailto:shaikharieshussain09@gmail.com)
+- LinkedIn: [linkedin.com/in/harieshussain](https://www.linkedin.com/in/harieshussain/)
+- Portfolio: [harieshussain.me](https://harieshussain.me)
