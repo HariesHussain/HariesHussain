@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 64" width="1000" height="64" fill="none">
+  <rect width="1000" height="64" rx="10" fill="#0F1613"/>
+  <rect x="10" y="10" width="980" height="44" rx="6" fill="none" stroke="#B59B6B" stroke-opacity="0.4" stroke-width="1"/>
+  <polygon points="40,32 44,28 48,32 44,36" fill="#B59B6B" opacity="0.75"/>
+  <line x1="56" y1="32" x2="200" y2="32" stroke="#B59B6B" stroke-opacity="0.3" stroke-width="1"/>
+  <polygon points="960,32 956,28 952,32 956,36" fill="#B59B6B" opacity="0.75"/>
+  <line x1="944" y1="32" x2="800" y2="32" stroke="#B59B6B" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="500" y="38" text-anchor="middle" font-family="'Cormorant Garamond', Georgia, 'Times New Roman', serif" font-size="16" font-weight="600" letter-spacing="7" fill="#EDE6D6">
+    AREAS OF EXPERTISE
+  </text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 30" width="1000" height="30" fill="none">
+  <defs>
+    <linearGradient id="divider-grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#B59B6B" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#B59B6B" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#B59B6B" stop-opacity="0.8"/>
+      <stop offset="70%" stop-color="#B59B6B" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#B59B6B" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <!-- Thin Center Line -->
+  <line x1="150" y1="15" x2="850" y2="15" stroke="url(#divider-grad)" stroke-width="1"/>
+  <!-- Center Diamond Ornament -->
+  <polygon points="500,10 505,15 500,20 495,15" fill="#B59B6B" opacity="0.85"/>
+  <circle cx="485" cy="15" r="1.5" fill="#B59B6B" opacity="0.5"/>
+  <circle cx="515" cy="15" r="1.5" fill="#B59B6B" opacity="0.5"/>
+</svg>
